@@ -18,3 +18,7 @@ zshrc() {
 zshrc
 
 brew bundle install --file=~/.dotfiles/brewfile
+
+chmod 0755 /workspaces/grow
+
+sudo chsh -s $(which zsh) $(whoami)
